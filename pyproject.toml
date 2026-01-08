@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mehmetmga-py-524"
+version = "0.1.0"
+description = "Practice Python package"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "Mehmet Imga", email = "you@example.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/mehmetimga/mds-524-collab-py"
+Repository = "https://github.com/mehmetimga/mds-524-collab-py"
+Issues = "https://github.com/mehmetimga/mds-524-collab-py/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
