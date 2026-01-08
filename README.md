@@ -21,3 +21,9 @@ add_two(1, 2)
 python -m pytest
 ```
 
+## TestPyPI
+
+Published at https://test.pypi.org/project/mehmetmga-py-524/0.1.0/.
+
+![TestPyPI listing](img/image.png)
+
